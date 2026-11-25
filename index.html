@@ -142,7 +142,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .project .cat{position:absolute;top:18px;right:18px;font-size:.72rem;color:var(--muted);border:1px solid var(--border);padding:2px 8px;border-radius:99px}
 .project h4{font-size:1rem;margin:6px 0 0;font-weight:600;padding-right:10px}
 .project .more{max-height:0;overflow:hidden;color:var(--muted);font-size:.9rem;transition:max-height .35s ease,margin .35s}
-.project.open .more{max-height:200px;margin-top:10px}
+.project.open .more{max-height:360px;margin-top:10px}
 .project .tog{font-size:.8rem;color:var(--accent);margin-top:10px;display:inline-block}
 .transversal{margin-top:36px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
 .transversal .card{border-left:4px solid var(--accent-2)}
@@ -279,7 +279,7 @@ footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.85rem;bord
       <div class="reveal">
         <p>Analyste-développeur avec <strong>25 ans d'expérience</strong>, je combine <strong>analyse fonctionnelle</strong> et <strong>développement d'applications métiers critiques</strong>. J'ai l'habitude de recueillir les besoins des utilisateurs, de les traduire en spécifications techniques et fonctionnelles, de coordonner des équipes de développement — y compris offshore — et d'accompagner les projets jusqu'aux tests et à la mise en production.</p>
         <br>
-        <p>Solide expertise en <strong>C#, .NET, SQL Server</strong> et intégration de systèmes. Rigoureux, orienté qualité et amélioration continue, et curieux des outils d'IA au quotidien.</p>
+        <p>Solide expertise en <strong>C#, .NET, SQL Server</strong> et intégration de systèmes, y compris les processus d'extraction et d'intégration de données (<strong>ETL</strong>). Rigoureux, autonome, orienté qualité et amélioration continue, j'utilise l'IA au quotidien.</p>
       </div>
       <ul class="facts reveal">
         <li><span class="k">📍 Localisation</span><span>Marcq (7850), Belgique</span></li>
@@ -305,10 +305,11 @@ footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.85rem;bord
     <div class="panel active" id="panel-tech">
       <div class="skill-groups">
         <div class="card"><h3>Langages & frameworks</h3><div class="chips"><span class="chip">C#</span><span class="chip">.NET Framework 4.8</span><span class="chip">ASP.NET</span><span class="chip">VB6</span><span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span></div></div>
-        <div class="card"><h3>Bases de données</h3><div class="chips"><span class="chip">MS SQL Server 2000–2022</span><span class="chip">Procédures stockées</span><span class="chip">Optimisation</span><span class="chip">MS Access</span><span class="chip">MySQL</span><span class="chip">Oracle</span><span class="chip">PostgreSQL</span></div></div>
+        <div class="card"><h3>Bases de données</h3><div class="chips"><span class="chip">MS SQL Server 2000–2022</span><span class="chip">Procédures stockées</span><span class="chip">Requêtes complexes</span><span class="chip">Optimisation</span><span class="chip">ETL</span><span class="chip">MS Access</span><span class="chip">MySQL (notions)</span><span class="chip">Oracle (notions)</span><span class="chip">PostgreSQL (notions)</span></div></div>
         <div class="card"><h3>API & intégration</h3><div class="chips"><span class="chip">Webservices</span><span class="chip">JSON / XML</span><span class="chip">Amadeus</span><span class="chip">Atlantis</span><span class="chip">Atriis</span><span class="chip">Winbooks</span><span class="chip">SendInBlue</span></div></div>
+        <div class="card"><h3>Systèmes</h3><div class="chips"><span class="chip">Windows Server</span><span class="chip">Sites IIS</span><span class="chip">Administration SQL Server</span><span class="chip">Linux (notions)</span></div></div>
         <div class="card"><h3>Automatisation & IA</h3><div class="chips"><span class="chip">n8n</span><span class="chip">Peppol</span><span class="chip">ChatGPT</span><span class="chip">Gemini</span><span class="chip">Claude</span></div></div>
-        <div class="card"><h3>Outils</h3><div class="chips"><span class="chip">Visual Studio</span><span class="chip">Git / GitHub</span><span class="chip">JIRA</span><span class="chip">Confluence</span><span class="chip">Trello</span><span class="chip">Balsamiq</span><span class="chip">Crystal Reports</span></div></div>
+        <div class="card"><h3>Outils</h3><div class="chips"><span class="chip">Visual Studio</span><span class="chip">Git / GitHub</span><span class="chip">JIRA</span><span class="chip">Confluence</span><span class="chip">Trello</span><span class="chip">Balsamiq (maquettes)</span><span class="chip">Crystal Reports</span></div></div>
       </div>
     </div>
 
@@ -319,10 +320,10 @@ footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.85rem;bord
     <div class="panel" id="panel-learn">
       <div class="card learn">
         <p style="color:var(--muted)">Je continue à me former pour suivre l'évolution de l'écosystème .NET.</p>
-        <div class="bar-row"><div class="top"><span>.NET Core / Blazor</span><span>en cours</span></div><div class="bar"><i data-w="55"></i></div></div>
-        <div class="bar-row"><div class="top"><span>Entity Framework / EF Core</span><span>en cours</span></div><div class="bar"><i data-w="50"></i></div></div>
-        <div class="bar-row"><div class="top"><span>UML</span><span>formation prévue 12/2026</span></div><div class="bar"><i data-w="20"></i></div></div>
-        <div class="bar-row"><div class="top"><span>Néerlandais</span><span>cours du soir depuis 09/2026</span></div><div class="bar"><i data-w="30"></i></div></div>
+        <div class="bar-row"><div class="top"><span>.NET Core / Blazor</span><span>en cours</span></div></div>
+        <div class="bar-row"><div class="top"><span>Entity Framework / EF Core</span><span>en cours</span></div></div>
+        <div class="bar-row"><div class="top"><span>UML</span><span>formation prévue 12/2026</span></div></div>
+        <div class="bar-row"><div class="top"><span>Néerlandais</span><span>cours du soir depuis 09/2026</span></div></div>
       </div>
     </div>
   </div>
@@ -335,7 +336,7 @@ footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.85rem;bord
     <div class="job-head reveal">
       <div>
         <h3>Analyste-développeur — Promisys</h3>
-        <div class="meta">Genappe · CDI</div>
+        <div class="meta">Genappe · CDI temps plein</div>
       </div>
       <span class="pill">08/2001 – aujourd'hui</span>
     </div>
@@ -343,17 +344,20 @@ footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.85rem;bord
     <div class="timeline-bar reveal" id="periods">
       <button class="active" data-period="all">Toute la carrière<small>2001 – aujourd'hui</small></button>
       <button data-period="modern">Applications .NET & automatisation<small>2015 – aujourd'hui</small></button>
-      <button data-period="web">Web ASP & ASP.NET<small>2003 – 2015</small></button>
+      <button data-period="web">Web ASP, ASP.NET & bases de données<small>2001 – 2015</small></button>
     </div>
 
     <div class="filters" id="filters"></div>
     <div class="projects" id="projects"></div>
 
-    <h3 style="margin-top:44px" class="reveal">Coordination transversale</h3>
+    <h3 style="margin-top:44px" class="reveal">Coordination, support et partage de connaissances</h3>
     <div class="transversal">
       <div class="card reveal"><h3>🌏 Équipe offshore</h3><p>Coordination avec une équipe de développement au Vietnam : analyse des besoins, spécifications base de données, répartition des tâches via Jira, tests et suivi.</p></div>
+      <div class="card reveal"><h3>🔄 Agile</h3><p>Méthode Agile pratiquée chez un client : suivi des tâches dans Jira pendant environ 2 ans, avec réunion d'équipe hebdomadaire.</p></div>
+      <div class="card reveal"><h3>🤝 Support aux collègues</h3><p>Support technique en C#, requêtes et procédures stockées : diagnostic, correction et explication des solutions.</p></div>
+      <div class="card reveal"><h3>🔍 Revue SQL</h3><p>Revue et optimisation de scripts SQL et de procédures stockées, avec explication des améliorations apportées.</p></div>
       <div class="card reveal"><h3>⏱️ Production 24/7</h3><p>Gestion d'applications critiques en production continue.</p></div>
-      <div class="card reveal"><h3>🔒 RGPD</h3><p>Gestion de données personnelles sensibles dans le respect du RGPD.</p></div>
+      <div class="card reveal"><h3>🔒 RGPD</h3><p>Gestion de données personnelles sensibles (RGPD).</p></div>
       <div class="card reveal"><h3>📑 Conformité</h3><p>Documentation rigoureuse à des fins de conformité.</p></div>
     </div>
   </div>
@@ -381,7 +385,7 @@ footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.85rem;bord
       <div class="eyebrow" style="margin-top:48px">Centres d'intérêt</div>
       <p style="color:var(--muted);font-size:.85rem;margin:6px 0 14px">Survolez ou touchez une carte</p>
       <div class="interests">
-        <div class="flip"><div class="flip-inner"><div class="face"><span class="em">🎾</span><b>Tennis</b></div><div class="face back">Une passion qui a aussi guidé plus de 20 ans de projets pour la fédération de tennis.</div></div></div>
+        <div class="flip"><div class="flip-inner"><div class="face"><span class="em">🎾</span><b>Tennis</b></div><div class="face back">Sur le terrain, et dans mes projets pour la fédération de tennis.</div></div></div>
         <div class="flip"><div class="flip-inner"><div class="face"><span class="em">🏋️</span><b>Cross training</b></div><div class="face back">Pour garder l'énergie et la constance.</div></div></div>
         <div class="flip"><div class="flip-inner"><div class="face"><span class="em">🎲</span><b>Jeux de plateau</b></div><div class="face back">Stratégie, logique et bons moments partagés.</div></div></div>
         <div class="flip"><div class="flip-inner"><div class="face"><span class="em">🧱</span><b>Lego</b></div><div class="face back">Construire pièce par pièce — comme une bonne application.</div></div></div>
@@ -424,7 +428,7 @@ document.getElementById('menuBtn').addEventListener('click', () => navLinks.clas
 navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
 
 // ---------- Typing effect ----------
-const roles = ['Analyste fonctionnel', 'Développeur .NET / C#', 'Expert SQL Server', 'Coordinateur de projets', 'Passionné d\'automatisation & d\'IA'];
+const roles = ['Analyste-développeur', 'Analyste fonctionnel', 'Développeur .NET / C#'];
 const typedEl = document.getElementById('typed');
 let ri = 0, ci = 0, deleting = false;
 (function type() {
@@ -440,12 +444,11 @@ let ri = 0, ci = 0, deleting = false;
 const funcs = [
   ['Analyse fonctionnelle', 'Recueil des besoins, clarification, spécifications et validation'],
   ['Collaboration métier', 'Traduction des besoins utilisateurs en solutions techniques'],
-  ['Coordination de projets', 'Répartition et suivi des tâches (Jira), y compris offshore'],
-  ['Tests & validation', 'Conception, exécution, validation fonctionnelle'],
+  ['Coordination de projets', 'Répartition et suivi des tâches (Jira), y compris offshore ; pratique Agile chez un client'],
+  ['Qualité & tests', 'Conception, exécution, validation fonctionnelle'],
+  ['Suivi opérationnel', 'Gestion des incidents et alertes, vérification du bon fonctionnement (monitoring)'],
   ['Documentation', 'Spécifications, procédures, documentation technique et fonctionnelle'],
-  ['Support', 'Aux utilisateurs et aux développeurs'],
-  ['Formation', 'Accompagnement et formation des utilisateurs'],
-  ['Démonstrations', 'Présentation de produits et fonctionnalités aux clients'],
+  ['Support & formation', 'Support aux utilisateurs et aux développeurs, formation, démonstrations aux clients'],
   ['Résolution d\'incidents', 'Diagnostic, correction, suivi'],
   ['Amélioration continue', 'Des processus et du code existant'],
 ];
@@ -456,34 +459,36 @@ document.getElementById('funcList').innerHTML = funcs.map((f, i) =>
 document.querySelectorAll('.tabs .tab').forEach(tab => tab.addEventListener('click', () => {
   document.querySelectorAll('.tabs .tab').forEach(t => t.classList.toggle('active', t === tab));
   document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'panel-' + tab.dataset.panel));
-  if (tab.dataset.panel === 'learn') fillBars(document.getElementById('panel-learn'));
 }));
 
 // ---------- Projects ----------
-const cats = { net: '.NET / C#', integ: 'Intégration & automatisation', modules: 'Modules applicatifs', db: 'Bases de données', web: 'Web ASP / ASP.NET' };
+const cats = { net: '.NET / C#', integ: 'Intégration & automatisation', modules: 'Modules applicatifs', db: 'Bases de données', web: 'Web ASP & VB6' };
 const projects = [
-  { y: 2025, label: '2025', c: 'integ', t: 'Workflow n8n d\'import automatisé de factures Peppol', d: 'Analyse et mise en place d\'un workflow n8n avec extraction des données assistée par IA (Gemini).' },
-  { y: 2022, label: '2022', c: 'net', t: 'Front & back office pour agences de voyage', d: 'Développement complet en .NET.' },
-  { y: 2022, label: '2022', c: 'integ', t: 'Interfaces avec fournisseurs externes', d: 'Analyse et intégration d\'interfaces avec Amadeus, Atlantis, Atriis et Winbooks.' },
-  { y: 2021, label: '2021', c: 'integ', t: 'Synchronisation SQL Server ↔ SendInBlue', d: 'Gestion automatisée des contacts et des newsletters.' },
-  { y: 2020, label: '2020', c: 'net', t: 'Service web d\'extraction de données', d: 'Analyse d\'un service web d\'extraction de données depuis SQL Server.' },
-  { y: 2020, label: '2020', c: 'modules', t: 'Module e-learning', d: 'Avec gestion d\'importation de vidéos.' },
-  { y: 2020, label: '2020', c: 'modules', t: 'Sondage de satisfaction', d: 'Module de sondage pour séminaires en ligne.' },
-  { y: 2016, label: '2016', c: 'net', t: 'Migration du site AFT vers .NET / C#', d: 'Migration et développement du site de la fédération de tennis avec SQL Server 2012.' },
-  { y: 2016, label: '2016', c: 'modules', t: 'Système de newsletter en ligne', d: 'Création, envoi et suivi de newsletters.' },
-  { y: 2016, label: '2016', c: 'modules', t: 'Calendrier des tournois, membres & interclubs', d: 'Gestion du calendrier des tournois, modules membres et interclubs.' },
-  { y: 2016, label: '2016', c: 'modules', t: 'Rapports statistiques', d: 'Rapports réalisés en Crystal Reports.' },
-  { y: 2015, label: '2015', c: 'net', t: 'Extraction comptable SQL Server', d: 'Analyse et développement de programmes d\'extraction comptable vers des applications tierces.' },
-  { y: 2006, label: '2006 – 2015', c: 'web', t: 'Migration du site AFT vers ASP.NET / C#', d: 'Avec MS SQL 2005 puis 2012 : calendrier des tournois, modules membres, interclubs, newsletter et sondages.' },
-  { y: 2003, label: '2003', c: 'web', t: 'Site AFT en ASP / VBScript / JS', d: 'Développement sur MS SQL 2000, site de gestion des membres, interclubs et tournois pour clubs.' },
-  { y: 2003, label: '2003 – 2015', c: 'web', t: 'Passerelles DTS', d: 'Récupération automatisée des résultats en ligne.' },
-  { y: 2002, label: '2002 – aujourd\'hui', c: 'db', t: 'Bases de données critiques SQL Server', d: 'Analyse, maintenance et optimisation : jobs, DTS, 200+ tables et 450 procédures stockées.' },
-  { y: 2001, label: '2001', c: 'db', t: 'Migration Access → SQL Server 2000', d: 'Reprise et migration d\'une base Access existante.' },
+  { per: 'modern', label: '2025', c: 'integ', t: 'Workflow n8n d\'import automatisé de factures Peppol', d: 'Analyse et mise en place avec extraction assistée par IA (Gemini) : extraction des lignes de facture, identification du client par numéro de TVA, validation déterministe des quantités et prix, tests validés sur des cas réels.' },
+  { per: 'modern', label: '2022', c: 'net', t: 'Front & back office pour agences de voyage', d: 'Développement front et back office avec .NET.' },
+  { per: 'modern', label: '2022', c: 'integ', t: 'Interfaces avec fournisseurs externes', d: 'Analyse et intégration d\'interfaces avec Amadeus, Atlantis, Atriis et Winbooks.' },
+  { per: 'modern', label: '2021', c: 'integ', t: 'Synchronisation SQL Server ↔ SendInBlue', d: 'Gestion de contacts et newsletters.' },
+  { per: 'modern', label: '2020', c: 'net', t: 'Service web d\'extraction de données', d: 'Analyse d\'un service web d\'extraction de données depuis SQL Server.' },
+  { per: 'modern', label: '2020', c: 'modules', t: 'Module e-learning', d: 'Avec gestion d\'importation de vidéos.' },
+  { per: 'modern', label: '2020', c: 'modules', t: 'Sondage de satisfaction', d: 'Module de sondage pour séminaires en ligne.' },
+  { per: 'modern', label: '2016', c: 'net', t: 'Seconde migration du site AFT vers .NET / C#', d: 'Migration et développement du site de la fédération de tennis avec SQL Server 2012.' },
+  { per: 'modern', label: '2016', c: 'modules', t: 'Calendrier des tournois, membres, classement & interclubs', d: 'Gestion du calendrier des tournois, modules membres, calcul de classement et interclubs.' },
+  { per: 'modern', label: '2016', c: 'modules', t: 'Rapports statistiques', d: 'Rapports réalisés en Crystal Reports.' },
+  { per: 'modern', label: '2015', c: 'net', t: 'Extraction comptable SQL Server', d: 'Analyse et développement de programmes d\'extraction comptable vers des applications tierces.' },
+  { per: 'modern', label: '2015 – aujourd\'hui', c: 'net', t: 'Inscriptions et tournois de tennis', d: 'Analyse de la logique d\'accès aux catégories de tournoi (classement, passeport/voucher) et optimisation de procédures stockées SQL Server.' },
+  { per: 'modern', label: '2015 – aujourd\'hui', c: 'modules', t: 'Répartition des frais de transport et de douane', d: 'Fichier Excel de répartition des frais de transport international et de douane par article d\'une commande.' },
+  { per: 'both', label: '2002 – aujourd\'hui', c: 'db', t: 'Bases de données critiques SQL Server', d: 'Analyse, maintenance et optimisation : jobs, DTS, 200+ tables et 450 procédures stockées.' },
+  { per: 'web', label: '2006 – 2015', c: 'web', t: 'Première migration du site AFT vers ASP.NET / C#', d: 'Avec MS SQL 2005 puis 2012.' },
+  { per: 'web', label: '2003', c: 'web', t: 'Site AFT en ASP / VBScript / JS', d: 'Développement du site de la fédération de tennis sur MS SQL 2000.' },
+  { per: 'web', label: '2001 – 2015', c: 'web', t: 'Site de gestion pour clubs', d: 'Gestion des membres, interclubs et tournois.' },
+  { per: 'web', label: '2001 – 2015', c: 'web', t: 'Newsletter et sondages', d: 'Système de newsletter en ligne et modules de sondage pour site de vente en ligne.' },
+  { per: 'web', label: '2001 – 2015', c: 'web', t: 'Réservation pour agences de voyages', d: 'Système de réservation en VB6 et MS SQL.' },
+  { per: 'web', label: '2001 – 2015', c: 'web', t: 'Passerelles DTS', d: 'Récupération de résultats en ligne.' },
+  { per: 'web', label: '2001', c: 'db', t: 'Migration Access → SQL Server 2000', d: 'Migration d\'une base Access vers SQL Server 2000.' },
 ];
-const periodOf = p => p.c === 'web' ? 'web' : (p.y >= 2015 ? 'modern' : (p.c === 'db' ? 'both' : 'web'));
 const projEl = document.getElementById('projects');
 projEl.innerHTML = projects.map(p =>
-  `<article class="card project" data-cat="${p.c}" data-period="${periodOf(p)}">
+  `<article class="card project" data-cat="${p.c}" data-period="${p.per}">
      <span class="cat">${cats[p.c]}</span>
      <div class="yr">${p.label}</div>
      <h4>${p.t}</h4>
